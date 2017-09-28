@@ -1,0 +1,8 @@
+Change a negative number to positive in assemly, or change a positive to negative. 
+$t0 is 1101
+
+nor $t1, $t0, $zero
+addi $t1, $t1, 1 
+
+New PC = Current Pc + 4 + (signExt(imm) << 2)
+New PC = Current Pc + 4 + (signExt(imm) * 4)

@@ -1,0 +1,5 @@
+Project 2
+		addi $t8, $zero, 16
+Loop:	bne $t8, $zero, Loop
+
+Try storing the previous color on the stack. In play sequence play from top and all the way to the end of the stack and add a new color to the end. 
